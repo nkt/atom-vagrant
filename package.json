@@ -1,7 +1,7 @@
 {
   "name": "vagrant",
   "main": "./src/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Vagrant commands",
   "repository": "https://github.com/nkt/atom-vagrant",
   "license": "MIT",
