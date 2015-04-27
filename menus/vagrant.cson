@@ -1,0 +1,17 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Vagrant'
+      'submenu': [
+        {'label': 'Init', 'command': 'vagrant:init'}
+        {'label': 'Up', 'command': 'vagrant:up'}
+        {'label': 'Status', 'command': 'vagrant:status'}
+        {'label': 'Provision', 'command': 'vagrant:provision'}
+        {'label': 'Suspend', 'command': 'vagrant:suspend'}
+        {'label': 'Reload', 'command': 'vagrant:reload'}
+        {'label': 'Halt', 'command': 'vagrant:halt'}
+      ]
+    ]
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "name": "vagrant",
+  "main": "./src/main",
+  "version": "0.0.0",
+  "description": "Vagrant commands",
+  "repository": "https://github.com/nkt/atom-vagrant",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^3.0.1",
+    "eslint": "^0.20.0"
+  }
+}
